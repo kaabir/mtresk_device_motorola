@@ -23,12 +23,6 @@ $(call inherit-product, vendor/omni/config/gsm.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # must be before including omni part
-TARGET_ARCH := arm64
-TARGET_DENSITY := xxhdpi
-IS_PHONE := true
-TARGET_INCLUDE_ARCORE := true
-
-# must be before including omni part
 TARGET_BOOTANIMATION_SIZE := 1080p
 
 # Inherit from our custom product configuration
