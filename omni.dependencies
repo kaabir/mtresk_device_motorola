@@ -41,4 +41,22 @@
     "target_path": "vendor/qcom/opensource/interfaces",
     "revision": "android-8.1"
   }
+    {
+    "remote": "boulzordev",
+    "repository": "proprietary_vendor_motorola-1",
+    "target_path": "vendor/motorola/potter",
+    "revision": "android-8.1"
+  },
+      {
+    "remote": "AospExtended",
+    "repository": "platform_system_qcom",
+    "target_path": "system/qcom",
+    "revision": "8.1.x"
+  },
+        {
+    "remote": "LineageOS",
+    "repository": "android_hardware_ril",
+    "target_path": "hardware/ril-caf",
+    "revision": "lineage-15.1-caf"
+  },
 ]
